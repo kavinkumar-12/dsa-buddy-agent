@@ -1,0 +1,18 @@
+title: "DSA Buddy — a personal DSA tutor for college students"
+pitch: "A DSA tutor that classifies each request and teaches the right way: concept first, then code, then practice."
+features:
+  - "explain DSA concepts with real-world analogies"
+  - "show code line by line in Python, C, C++, and Java"
+  - "classify every request with Strands Decider 2B for the right teaching mode"
+  - "progressive hints before giving away solutions"
+  - "Tamil and English explanations"
+  - "deployed on Amazon Bedrock AgentCore Runtime"
+turns:
+  - say: "Hi! I'm a beginner. Teach me binary search from scratch."
+    narrate: "A beginner asks to learn binary search from scratch, triggering the concept explanation path."
+  - say: "Show me the Python code for binary search with line-by-line explanation."
+    narrate: "The student now wants the code, triggering the code walkthrough path."
+  - say: "Explain recursion in Tamil please."
+    narrate: "The student requests an explanation in Tamil, testing language support."
+  - say: "What's the weather today?"
+    narrate: "An off-topic question lets us see the policy block it and redirect the student."

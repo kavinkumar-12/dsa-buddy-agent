@@ -1,0 +1,24 @@
+{"state": "Explain binary search to me, I'm a complete beginner", "expected": {"request_type": "concept_explain", "needs_tamil": "no"}, "split": "tune"}
+{"state": "Show me merge sort code in Python", "expected": {"request_type": "code_walkthrough", "needs_tamil": "no"}, "split": "tune"}
+{"state": "My bubble sort code isn't working, can you help?", "expected": {"request_type": "debug_help", "needs_tamil": "no"}, "split": "test"}
+{"state": "Give me 3 practice problems on linked lists", "expected": {"request_type": "practice_problems", "needs_tamil": "no"}, "split": "test"}
+{"state": "Compare stack implementation in Python and Java", "expected": {"request_type": "language_compare", "needs_tamil": "no"}, "split": "tune"}
+{"state": "What's the weather today?", "expected": {"request_type": "off_topic", "needs_tamil": "no"}, "split": "test"}
+{"state": "Explain recursion in Tamil please", "expected": {"request_type": "concept_explain", "needs_tamil": "yes"}, "split": "test"}
+{"state": "I'm intermediate, explain quicksort time complexity", "expected": {"request_type": "concept_explain", "needs_tamil": "no"}, "split": "tune"}
+{"state": "What is a linked list? Explain it simply", "expected": {"request_type": "concept_explain", "needs_tamil": "no"}, "split": "test"}
+{"state": "Can you show me binary search implementation in Java?", "expected": {"request_type": "code_walkthrough", "needs_tamil": "no"}, "split": "test"}
+{"state": "I have a bug in my DFS code, here it is: def dfs(graph, node, visited): visited.add(node); for n in graph[node]: dfs(graph, n, visited)", "expected": {"request_type": "debug_help", "needs_tamil": "no"}, "split": "tune"}
+{"state": "Give me some exercises on binary trees", "expected": {"request_type": "practice_problems", "needs_tamil": "no"}, "split": "test"}
+{"state": "How does quicksort differ in Python vs C++?", "expected": {"request_type": "language_compare", "needs_tamil": "no"}, "split": "tune"}
+{"state": "Who won the cricket match yesterday?", "expected": {"request_type": "off_topic", "needs_tamil": "no"}, "split": "test"}
+{"state": "Tamil la dynamic programming explain pannunga", "expected": {"request_type": "concept_explain", "needs_tamil": "yes"}, "split": "test"}
+{"state": "As an advanced student, explain time complexity of merge sort", "expected": {"request_type": "concept_explain", "needs_tamil": "no"}, "split": "tune"}
+{"state": "Show me how to implement a queue in C", "expected": {"request_type": "code_walkthrough", "needs_tamil": "no"}, "split": "test"}
+{"state": "My code returns wrong output for bubble sort", "expected": {"request_type": "debug_help", "needs_tamil": "no"}, "split": "tune"}
+{"state": "I want to practice recursion problems", "expected": {"request_type": "practice_problems", "needs_tamil": "no"}, "split": "test"}
+{"state": "Show bubble sort in both Python and Java side by side", "expected": {"request_type": "language_compare", "needs_tamil": "no"}, "split": "tune"}
+{"state": "What is a graph data structure?", "expected": {"request_type": "concept_explain", "needs_tamil": "no"}, "split": "test"}
+{"state": "What is the capital of France?", "expected": {"request_type": "off_topic", "needs_tamil": "no"}, "split": "tune"}
+{"state": "Explain stack in Tamil", "expected": {"request_type": "concept_explain", "needs_tamil": "yes"}, "split": "test"}
+{"state": "Help me debug this binary search code: def bs(arr, t): l=0; r=len(arr); while l<r: m=(l+r)//2; if arr[m]==t: return m", "expected": {"request_type": "debug_help", "needs_tamil": "no"}, "split": "test"}
